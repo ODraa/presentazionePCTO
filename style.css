@@ -273,6 +273,19 @@ body {
     }
 }
 
+@media (max-width: 1800px){
+    .container {
+        position: relative;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-rows: minmax(100px, auto);
+        margin: 40px;
+        grid-auto-flow: dense;
+        grid-gap: 10px;
+    }
+}
+
 .container .box .magic p {
     opacity: 0;
     transition: opacity 0.5s ease;
