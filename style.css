@@ -284,6 +284,24 @@ body {
         grid-auto-flow: dense;
         grid-gap: 10px;
     }
+
+    .container .box:nth-child(7):hover {
+        transform: scale(1.82) translate(0%, 0%);
+        transform-origin: bottom right;
+        z-index: 2;
+    }
+
+    .container .box:nth-child(2):hover {
+        transform: scale(1.425) translate(0%, 0%);
+        transform-origin: top left;
+        z-index: 2;
+    }
+
+    .container .box:nth-child(4):hover {
+        transform: scale(1.465) translate(0%, 0%);
+        transform-origin: bottom left;
+        z-index: 2;
+    }
 }
 
 .container .box .magic p {
